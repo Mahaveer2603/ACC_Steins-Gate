@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="accLogo.png" type="image" sizes="16x16">
+    <link href="style.css" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script defer src="game.js"></script>
+    <title>Steins;Gate: Through Time and Space</title>
+</head>
+<body>
+	<audio id="bgAudio" autoplay="true" loop="true">
+		<source src="bgMusic.mp3">
+	</audio>
+	<img id="accLogo" src="accLogo.png">
+	<img id="nitwLogo" src="nitwLogo.png">
+    <div class="container">  
+        <div id="text">Text</div>
+        <div id="button-option" class="btn-grid">
+            <button class="btn">Option 1</button>
+            <button class="btn">Option 2</button>
+            <button class="btn">Option 3</button>
+            <button class="btn">Option 4</button>
+        </div>
+    </div>
+    <div id="welcome" class="welcome-section">
+        <div class="content-wrap">
+            <span class="welcome-text"><span class="red">ACC</span><br>Welcomes you<br>to <span class="platinum">Steins;Gate</span>:<br>Through <span class="dark-blue">Time</span><br>& <span class="purple-pink">Space</span></span>
+         	<a href="#" id="enter" class="enter-button">Tap here to start</a>   
+        </div>
+    </div>
+</body>
+</html>
